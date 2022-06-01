@@ -1,0 +1,83 @@
+body{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+nav li{
+    list-style: none;
+    margin:10px;
+}
+
+nav ul{
+    margin:0px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+}
+
+nav a:hover, nav li.active a {
+    color:#2a9df4;
+    font-weight: bold;
+}
+
+nav li.active a{
+    text-decoration: underline darkblue;
+}
+
+h1{
+    text-align: center;
+    padding:30px;
+    padding-bottom: 0;
+    text-shadow: 1px 1px #2a9df4;
+}
+
+.space{
+    width:50%;
+    align-items: center;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+
+img{
+    box-shadow: 5px 5px 10px grey;
+    width: 300px;
+    border: 1px ridge;
+    
+}
+
+.see-button{
+    border:1px solid darkblue;
+    color:darkblue;
+    padding-top: 13px;
+    box-shadow: 1px 1px #2a9df4;
+}
+
+.see-button:hover{
+    background-color: darkblue;
+    color:white;
+}
+
+.github{
+    margin-left:15px;
+    color:darkblue;
+}
+
+
+.second-project{
+    background-color: #F4ECE6;
+    margin-top:50px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.weather-app-description{
+    text-align: right;
+}
+
+.third-project{
+    margin-top:25px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
